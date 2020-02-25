@@ -49,7 +49,7 @@ Closure is the ability for an outter function to share information with an inner
 
 5. Why do we need super() in an extended class?
 
-The super() method copies over all initializations from the class it is extending so we dont have to write it all out unless there is something we want to overwrite.
+The super() method copies over all initializations/constructor class from which it extends so we dont have to write it all out unless there is something we want to overwrite.
 
 ## Project Set up
 
