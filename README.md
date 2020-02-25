@@ -42,7 +42,14 @@ Closure is the ability for an outter function to share information with an inner
 
 4. Describe the four rules of the 'this' keyword.
 
+  1) it calls the outer most object (window) when in a regular function
+  2) it can implicitiy bind it to an object using when calling an object method
+  3) it can explicitly bind using .bind(), .call, or .apply
+  4) some functions have an extra parameter that can take the .this argument. 
+
 5. Why do we need super() in an extended class?
+
+The super() method copies over all initializations from the class it is extending so we dont have to write it all out unless there is something we want to overwrite.
 
 ## Project Set up
 
